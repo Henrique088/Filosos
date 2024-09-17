@@ -60,7 +60,7 @@ O frontend será aberto automaticamente em `http://localhost:3000`.
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](.././LICENSE.md).
+Este projeto está licenciado sob a [MIT License](../../LICENSE.md).
 ```
 
 ### Pontos principais:
