@@ -21,7 +21,7 @@ Este diretório contém o código do frontend da aplicação, desenvolvido com *
 ### 1. Navegue até o diretório `frontend`:
 
 ```bash
-cd frontend/filosofos
+cd front-end/filosofos
 ```
 
 ### 2. Instale as dependências:
