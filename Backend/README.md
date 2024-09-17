@@ -99,7 +99,7 @@ O backend estará disponível em `http://127.0.0.1:8000`.
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](../LICENSE).
+Este projeto está licenciado sob a [MIT License](../LICENSE.md).
 ```
 
 Agora o README reflete o fato de que o backend usa apenas o método **POST** no endpoint `/filosofos/envia/`.
