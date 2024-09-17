@@ -92,7 +92,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [MIT License](LICENSE.md).
 ```
 
 Esse README fornece uma visão geral clara do projeto, com instruções detalhadas sobre como executar tanto o frontend quanto o backend, e inclui sugestões para melhorias futuras.
