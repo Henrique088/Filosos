@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Frontend - Pesquisa de Filósofos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este diretório contém o código do frontend da aplicação, desenvolvido com **React**. A interface permite a pesquisa de filósofos e exibe os resultados dinamicamente, com um design simples e responsivo.
 
-## Available Scripts
+## Estrutura
 
-In the project directory, you can run:
+- **Navbar**: Barra de navegação fixa no topo.
+- **Campo de Pesquisa**: Campo de input para o nome do filósofo.
+- **Botão de Busca**: Realiza a pesquisa ao ser pressionado.
+- **Área de Resultados**: Exibe os resultados da pesquisa abaixo do botão.
+- **Footer**: Rodapé fixo ao final da página.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Framework**: React
+- **Linguagens**: HTML5, CSS3, JavaScript
+- **Comunicação**: Fetch API para enviar requisições ao backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Frontend
 
-### `npm test`
+### 1. Navegue até o diretório `frontend`:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd frontend/filosofos
+```
 
-### `npm run build`
+### 2. Instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Inicie o servidor de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+O frontend será aberto automaticamente em `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Pesquisa Dinâmica**: Permite buscar filósofos e exibe os resultados correspondentes.
+- **Prevenção de Submissão Automática**: Apenas exibe resultados após pressionar o botão de busca.
+- **Responsividade**: Interface adaptada para diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktops.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estrutura de Arquivos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **`src/App.js`**: Componente principal que gerencia o estado da pesquisa e renderiza a interface.
+- **`src/components/Navbar.js`**: Componente para a barra de navegação.
+- **`src/components/SearchInput.js`**: Componente para o campo de pesquisa e botão de busca.
+- **`src/components/Results.js`**: Componente para exibir os resultados da pesquisa.
+- **`src/App.css`**: Arquivo CSS para estilização global.
 
-## Learn More
+## Melhorias Futuras
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Implementar feedback visual enquanto a pesquisa está sendo realizada.
+- Adicionar funcionalidades como filtros e ordenação dos resultados.
+- Melhorar a experiência do usuário (UI/UX) com base em feedback.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+Este projeto está licenciado sob a [MIT License](.../LICENSE).
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Pontos principais:
+- **Estrutura**: Descreve a estrutura da aplicação frontend e os principais componentes.
+- **Tecnologias e Funcionalidades**: Destaca as tecnologias usadas e as funcionalidades principais.
+- **Instruções de Execução**: Fornece passos claros para executar a aplicação.
+- **Melhorias Futuras**: Sugestões para aprimorar a aplicação.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este README é voltado para desenvolvedores que irão trabalhar com o frontend, fornecendo informações úteis sobre a configuração, estrutura e possíveis melhorias.
